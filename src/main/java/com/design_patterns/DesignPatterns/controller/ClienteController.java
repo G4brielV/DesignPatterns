@@ -1,7 +1,7 @@
 package com.design_patterns.DesignPatterns.controller;
 
 import com.design_patterns.DesignPatterns.model.Cliente.Cliente;
-import com.design_patterns.DesignPatterns.service.Cliente.ClienteService;
+import com.design_patterns.DesignPatterns.service.Cliente.impl.ClienteServiceImpl;
 import com.design_patterns.DesignPatterns.service.Cliente.DtoCadastrarCliente;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,7 @@ import java.util.Optional;
 public class ClienteController {
 
     @Autowired
-    private ClienteService clienteService;
+    private ClienteServiceImpl clienteService;
 
     @Operation(
             summary = "Todos os Clientes e suas transações"
