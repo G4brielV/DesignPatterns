@@ -2,7 +2,7 @@ package com.design_patterns.DesignPatterns.service.Cliente.impl;
 
 import com.design_patterns.DesignPatterns.model.Cliente.Cliente;
 import com.design_patterns.DesignPatterns.model.Cliente.ClienteRepository;
-import com.design_patterns.DesignPatterns.service.Cliente.DtoCadastrarCliente;
+import com.design_patterns.DesignPatterns.controller.dto.DtoCadastrarCliente;
 import com.design_patterns.DesignPatterns.service.Cliente.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

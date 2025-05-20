@@ -3,7 +3,7 @@ package com.design_patterns.DesignPatterns.service.Transacao.impl;
 import com.design_patterns.DesignPatterns.model.Cliente.ClienteRepository;
 import com.design_patterns.DesignPatterns.model.Transacao.Transacao;
 import com.design_patterns.DesignPatterns.model.Transacao.TransacaoRepository;
-import com.design_patterns.DesignPatterns.service.Transacao.DtoTransacao;
+import com.design_patterns.DesignPatterns.controller.dto.DtoTransacao;
 import com.design_patterns.DesignPatterns.service.Transacao.TransacaoService;
 import com.design_patterns.DesignPatterns.service.Transacao.strategy.TransacaoStrategy;
 import org.springframework.beans.factory.annotation.Autowired;

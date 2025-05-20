@@ -1,4 +1,4 @@
-package com.design_patterns.DesignPatterns.service.Cliente;
+package com.design_patterns.DesignPatterns.controller.dto;
 
 public record DtoCadastrarCliente(
         String nome

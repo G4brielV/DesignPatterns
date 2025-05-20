@@ -1,6 +1,6 @@
 package com.design_patterns.DesignPatterns.service.Transacao.strategy;
 
-import com.design_patterns.DesignPatterns.service.Transacao.DtoTransacao;
+import com.design_patterns.DesignPatterns.controller.dto.DtoTransacao;
 
 
 public interface TransacaoStrategy {

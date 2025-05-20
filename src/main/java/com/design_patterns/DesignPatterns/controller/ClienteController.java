@@ -2,7 +2,7 @@ package com.design_patterns.DesignPatterns.controller;
 
 import com.design_patterns.DesignPatterns.model.Cliente.Cliente;
 import com.design_patterns.DesignPatterns.service.Cliente.impl.ClienteServiceImpl;
-import com.design_patterns.DesignPatterns.service.Cliente.DtoCadastrarCliente;
+import com.design_patterns.DesignPatterns.controller.dto.DtoCadastrarCliente;
 import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
